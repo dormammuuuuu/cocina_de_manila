@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Cocina De Manila" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Cocina De Manila" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Cocina De Manila" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="activities/Browse_foods.h" />
+		<Unit filename="activities/Food_menu.h" />
+		<Unit filename="activities/Load_delivery_fees.h" />
+		<Unit filename="activities/Load_users.h" />
+		<Unit filename="activities/MainUI.h" />
+		<Unit filename="activities/SignIn.h" />
+		<Unit filename="activities/SignUp.h" />
+		<Unit filename="activities/User_Info.h" />
+		<Unit filename="activities/User_cart.h" />
+		<Unit filename="activities/User_cart_checkout.h" />
+		<Unit filename="activities/User_cart_payment.h" />
+		<Unit filename="activities/User_cart_receipt.h" />
+		<Unit filename="activities/User_cart_remove_order.h" />
+		<Unit filename="activities/User_edit.h" />
+		<Unit filename="activities/accounts/save_user.h" />
+		<Unit filename="activities/drinks_menu.h" />
+		<Unit filename="activities/encrypt_decrypt.h" />
+		<Unit filename="activities/get_eta.h" />
+		<Unit filename="activities/other_activities.h" />
+		<Unit filename="activities/var.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
